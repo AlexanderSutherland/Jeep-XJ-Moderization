@@ -17,6 +17,14 @@ This project aims to bring modern features to the Jeep Cherokee XJ, improving se
 - **Integrated Control for Accessories**: Allows control over accessories like seat warmers directly from the interface.
 - **Real-Time Monitoring**: Provides live updates on critical data, such as transmission temperature and locker engagement.
 
+## Parts
+- Touch screen: Elecrow RC050 (5 in screen)
+- MCU (Microcontrollers): STM32F746NGH6 (Basically a simple CPU)
+- Synchronous Step-Down Converter: MP2338 (Use to step down 12V -> 5V or 3.3V)
+- Development board: NUCLEO-F439ZI (For protyping and potentially integrate. Alternative for final product: Custom PCB Design)
+- Micro SD: Samsung EVO Select microSDXC (Storage)
+- BreadBoard: Elegoo Breadboard (For testing connections quickly)
+
 ## Installation
 
 1. Clone this repository:
