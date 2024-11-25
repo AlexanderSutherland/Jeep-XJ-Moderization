@@ -18,8 +18,8 @@ This project aims to bring modern features to the Jeep Cherokee XJ, improving se
 - **Real-Time Monitoring**: Provides live updates on critical data, such as transmission temperature and locker engagement.
 
 ## Parts
-- Touch screen: Elecrow RC050 (5 in screen)
-- MCU (Microcontrollers): STM32F746NGH6 (Basically a simple CPU)
+- Touch Screen: 5inch DSI Capacitive Touch Display https://www.waveshare.com/product/displays/lcd-oled/lcd-oled-1/5inch-dsi-lcd-d.htm
+- MCU (Microcontrollers): STM32H747IIT6 (Basically a simple CPU)
 - Synchronous Step-Down Converter: MP2338 (Use to step down 12V -> 5V or 3.3V)
 - Development board: NUCLEO-F439ZI (For protyping and potentially integrate. Alternative for final product: Custom PCB Design)
 - Micro SD: Samsung EVO Select microSDXC (Storage)
